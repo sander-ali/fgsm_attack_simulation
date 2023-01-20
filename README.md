@@ -1,5 +1,5 @@
 # fgsm_attack_simulation
-The repository provides a demo code for implementing fast gradient sign method (FGSM) using PyTorch. The code borrows from (PyTorch Official Tutorial)[https://pytorch.org/tutorials/beginner/fgsm_tutorial.html] and the base paper (Explaining and Harnessing Adversarial Examples)[https://arxiv.org/abs/1412.6572].  
+The repository provides a demo code for implementing fast gradient sign method (FGSM) using PyTorch. The code borrows from [PyTorch Official Tutorial](https://pytorch.org/tutorials/beginner/fgsm_tutorial.html) and the base paper [Explaining and Harnessing Adversarial Examples](https://arxiv.org/abs/1412.6572).  
 
 FGSM is considered to be an adversarial attack on deep learning models, synonymous with viruses and malwares for computers. Adversarial attacks modify an original image such that it is undetectable to human eye or compels the model to misclassify. FGSM adds a pixel-wide perturbation in a single step as discussed in the aforementioned paper. 
 
